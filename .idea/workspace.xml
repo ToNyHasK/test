@@ -6,21 +6,24 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="">
+    <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="last commit" />
+    <list id="2cec4841-ef80-4780-bdf4-50315eac0eef" name="changing the commit message" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +33,38 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="INTERACTIVE" />
+      </set>
+    </option>
+    <option name="NEW_BASE" value="master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="trying to rebase" />
+        <option name="rewordedMessage" value="trying to rebase thirdo&#10;&#10;&#10;trying to rebase" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="4d23a88e42273da555b3850d19d2027be20132e8" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ToNyHasK/test" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1hp4RfqJAae5ORGpHzC5SDQFZ3I" />
   <component name="ProjectLevelVcsManager">
@@ -49,7 +77,9 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -62,6 +92,14 @@
       <updated>1600694694459</updated>
       <workItem from="1600694700030" duration="1239000" />
     </task>
+    <task id="LOCAL-00001" summary="last commit">
+      <created>1600711077549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600711077549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,13 +110,51 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changing the commit message&#10;&#10;trying to rebase" />
+    <MESSAGE value="last commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="last commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="655" y="371" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1600710175753">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="655" y="371" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.23.1680.960@0.23.1680.960" timestamp="1600710175753" />
+    <state x="614" y="263" key="Github.CreatePullRequestDialog" timestamp="1600710482063">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="614" y="263" key="Github.CreatePullRequestDialog/0.23.1680.960@0.23.1680.960" timestamp="1600710482063" />
+    <state x="723" y="314" key="VCS.ChangelistChooser" timestamp="1600710206736">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="723" y="314" key="VCS.ChangelistChooser/0.23.1680.960@0.23.1680.960" timestamp="1600710206736" />
+    <state x="376" y="90" key="Vcs.Push.Dialog.v2" timestamp="1600711090423">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="376" y="90" key="Vcs.Push.Dialog.v2/0.23.1680.960@0.23.1680.960" timestamp="1600711090423" />
+    <state x="623" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600710771530">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="623" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.960@0.23.1680.960" timestamp="1600710771530" />
     <state x="2459" y="165" key="search.everywhere.popup" timestamp="1600694716552">
       <screen x="1920" y="0" width="1920" height="1200" />
     </state>

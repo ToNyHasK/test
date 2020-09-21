@@ -1,0 +1,320 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Title</title>\n\n</head>\n<body>\n    <div>\n        <h3>Click Button</h3>\n        <button id=\"clickMe\">0</button>\n    </div>\n    <div>\n        <h1>New Title</h1>   \n    </div>\n\n</body>\n<script src=\"index.js\"></script>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision 4d23a88e42273da555b3850d19d2027be20132e8)
++++ index.html	(date 1600710057403)
+@@ -2,12 +2,12 @@
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+-    <title>Title</title>
++    <title>Trying to rebase</title>
+ 
+ </head>
+ <body>
+     <div>
+-        <h3>Click Button</h3>
++        <h3>Click One more</h3>
+         <button id="clickMe">0</button>
+     </div>
+     <div>
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch	(date 1600710057131)
++++ .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch	(date 1600710057131)
+@@ -0,0 +1,32 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1hp4RfqJAae5ORGpHzC5SDQFZ3I\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\" />\n      <created>1600694694459</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1600694694459</updated>\n      <workItem from=\"1600694700030\" duration=\"1239000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup\" timestamp=\"1600694716552\">\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1200\" />\n    </state>\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup/1920.0.1920.1200/0.0.1920.1200@1920.0.1920.1200\" timestamp=\"1600694716552\" />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/workspace.xml	(revision 4d23a88e42273da555b3850d19d2027be20132e8)
+++++ .idea/workspace.xml	(date 1600709352712)
++@@ -16,7 +16,13 @@
++         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++       </path>
++     </expand>
++-    <select />
+++    <select>
+++      <path>
+++        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+++        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+++      </path>
+++    </select>
++   </component>
++   <component name="ChangeListManager">
++     <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="">
++@@ -77,6 +83,7 @@
++         </entry>
++       </map>
++     </option>
+++    <option name="oldMeFiltersMigrated" value="true" />
++   </component>
++   <component name="WindowStateProjectService">
++     <state x="2459" y="165" key="search.everywhere.popup" timestamp="1600694716552">
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch	(date 1600710057131)
++++ .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch	(date 1600710057131)
+@@ -0,0 +1,43 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1hp4RfqJAae5ORGpHzC5SDQFZ3I\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\" />\n      <created>1600694694459</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1600694694459</updated>\n      <workItem from=\"1600694700030\" duration=\"1239000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup\" timestamp=\"1600694716552\">\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1200\" />\n    </state>\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup/1920.0.1920.1200/0.0.1920.1200@1920.0.1920.1200\" timestamp=\"1600694716552\" />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/workspace.xml	(revision 4d23a88e42273da555b3850d19d2027be20132e8)
+++++ .idea/workspace.xml	(date 1600709807678)
++@@ -1,22 +1,13 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="BranchesTreeState">
++-    <expand>
+++    <expand />
+++    <select>
++       <path>
++         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++       </path>
++-      <path>
++-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-      </path>
++-      <path>
++-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++-      </path>
++-    </expand>
++-    <select />
+++    </select>
++   </component>
++   <component name="ChangeListManager">
++     <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="">
++@@ -77,6 +68,7 @@
++         </entry>
++       </map>
++     </option>
+++    <option name="oldMeFiltersMigrated" value="true" />
++   </component>
++   <component name="WindowStateProjectService">
++     <state x="2459" y="165" key="search.everywhere.popup" timestamp="1600694716552">
+Index: .idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml	(date 1600710184866)
++++ .idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml	(date 1600710184866)
+@@ -0,0 +1,4 @@
++<changelist name="Uncommitted_changes_before_rebase_[Default_Changelist]" date="1600709703311" recycled="true" deleted="true">
++  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" />
++  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Default Changelist]" />
++</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch	(date 1600710057131)
++++ .idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch	(date 1600710057131)
+@@ -0,0 +1,43 @@
++Index: .idea/workspace.xml
++IDEA additional info:
++Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
++<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1hp4RfqJAae5ORGpHzC5SDQFZ3I\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\" />\n      <created>1600694694459</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1600694694459</updated>\n      <workItem from=\"1600694700030\" duration=\"1239000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup\" timestamp=\"1600694716552\">\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1200\" />\n    </state>\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup/1920.0.1920.1200/0.0.1920.1200@1920.0.1920.1200\" timestamp=\"1600694716552\" />\n  </component>\n</project>
++Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
++<+>UTF-8
++===================================================================
++--- .idea/workspace.xml	(revision 4d23a88e42273da555b3850d19d2027be20132e8)
+++++ .idea/workspace.xml	(date 1600709739440)
++@@ -1,22 +1,13 @@
++ <?xml version="1.0" encoding="UTF-8"?>
++ <project version="4">
++   <component name="BranchesTreeState">
++-    <expand>
+++    <expand />
+++    <select>
++       <path>
++         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++       </path>
++-      <path>
++-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-      </path>
++-      <path>
++-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++-      </path>
++-    </expand>
++-    <select />
+++    </select>
++   </component>
++   <component name="ChangeListManager">
++     <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="">
++@@ -77,6 +68,7 @@
++         </entry>
++       </map>
++     </option>
+++    <option name="oldMeFiltersMigrated" value="true" />
++   </component>
++   <component name="WindowStateProjectService">
++     <state x="2459" y="165" key="search.everywhere.popup" timestamp="1600694716552">
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1hp4RfqJAae5ORGpHzC5SDQFZ3I\" />\n  <component name=\"ProjectLevelVcsManager\">\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\n  </component>\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"08713cc3-0de4-4509-9992-7bdea8b464a0\" name=\"Default Changelist\" comment=\"\" />\n      <created>1600694694459</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1600694694459</updated>\n      <workItem from=\"1600694700030\" duration=\"1239000\" />\n    </task>\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup\" timestamp=\"1600694716552\">\n      <screen x=\"1920\" y=\"0\" width=\"1920\" height=\"1200\" />\n    </state>\n    <state x=\"2459\" y=\"165\" key=\"search.everywhere.popup/1920.0.1920.1200/0.0.1920.1200@1920.0.1920.1200\" timestamp=\"1600694716552\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 4d23a88e42273da555b3850d19d2027be20132e8)
++++ .idea/workspace.xml	(date 1600710793534)
+@@ -6,21 +6,24 @@
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+-      <path>
+-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-      </path>
++    </expand>
++    <select>
+       <path>
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+-    </expand>
+-    <select />
++    </select>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="">
++    <list default="true" id="08713cc3-0de4-4509-9992-7bdea8b464a0" name="Default Changelist" comment="" />
++    <list id="2cec4841-ef80-4780-bdf4-50315eac0eef" name="changing the commit message" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]1/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]2/shelved.patch" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -30,13 +33,38 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="HTML File" />
+         <option value="JavaScript File" />
+-        <option value="HTML File" />
+       </list>
+     </option>
+   </component>
++  <component name="Git.Rebase.Settings">
++    <option name="OPTIONS">
++      <set>
++        <option value="INTERACTIVE" />
++      </set>
++    </option>
++    <option name="NEW_BASE" value="master" />
++  </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitRewordedCommitMessages">
++    <option name="commitMessagesMapping">
++      <RewordedCommitMessageMapping>
++        <option name="originalMessage" value="trying to rebase" />
++        <option name="rewordedMessage" value="trying to rebase thirdo&#10;&#10;&#10;trying to rebase" />
++      </RewordedCommitMessageMapping>
++    </option>
++    <option name="currentCommit" value="1" />
++    <option name="onto" value="4d23a88e42273da555b3850d19d2027be20132e8" />
++  </component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="hiddenUrls">
++      <set>
++        <option value="https://github.com/ToNyHasK/test" />
++      </set>
++    </option>
+   </component>
+   <component name="ProjectId" id="1hp4RfqJAae5ORGpHzC5SDQFZ3I" />
+   <component name="ProjectLevelVcsManager">
+@@ -49,7 +77,9 @@
+   <component name="PropertiesComponent">
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
++    <property name="TODO_SCOPE" value="All Places" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="nodejs_package_manager_path" value="npm" />
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+@@ -72,13 +102,46 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="master" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+     </option>
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="changing the commit message&#10;&#10;trying to rebase" />
++    <option name="LAST_COMMIT_MESSAGE" value="" />
+   </component>
+   <component name="WindowStateProjectService">
++    <state x="655" y="371" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog" timestamp="1600710175753">
++      <screen x="0" y="23" width="1680" height="960" />
++    </state>
++    <state x="655" y="371" key="Git.Rebase.Log.Action.NewCommitMessage.Dialog/0.23.1680.960@0.23.1680.960" timestamp="1600710175753" />
++    <state x="614" y="263" key="Github.CreatePullRequestDialog" timestamp="1600710482063">
++      <screen x="0" y="23" width="1680" height="960" />
++    </state>
++    <state x="614" y="263" key="Github.CreatePullRequestDialog/0.23.1680.960@0.23.1680.960" timestamp="1600710482063" />
++    <state x="723" y="314" key="VCS.ChangelistChooser" timestamp="1600710206736">
++      <screen x="0" y="23" width="1680" height="960" />
++    </state>
++    <state x="723" y="314" key="VCS.ChangelistChooser/0.23.1680.960@0.23.1680.960" timestamp="1600710206736" />
++    <state x="623" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600710771530">
++      <screen x="0" y="23" width="1680" height="960" />
++    </state>
++    <state x="623" y="317" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.960@0.23.1680.960" timestamp="1600710771530" />
+     <state x="2459" y="165" key="search.everywhere.popup" timestamp="1600694716552">
+       <screen x="1920" y="0" width="1920" height="1200" />
+     </state>
